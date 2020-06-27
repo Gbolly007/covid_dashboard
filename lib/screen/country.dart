@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:coviddashboard/countryDetails.dart';
+import 'package:coviddashboard/screen/countryDetails.dart';
 import 'package:coviddashboard/services.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import 'package:http/http.dart' as http;
 
-import 'countrycases.dart';
+import '../countrycases.dart';
 
 class Country extends StatefulWidget {
   @override

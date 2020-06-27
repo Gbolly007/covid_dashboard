@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1028514402946",
+    "firebase_url": "https://covidnewsdb.firebaseio.com",
+    "project_id": "covidnewsdb",
+    "storage_bucket": "covidnewsdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028514402946:android:394670456fa09a498ada9b",
+        "android_client_info": {
+          "package_name": "com.hsaliu.coviddashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028514402946-al9qmdgk4gbln5iqn7n14ag6tpnvc043.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgUdbCbt_1mabguAfLlC8KIFqLcLCUcLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028514402946-al9qmdgk4gbln5iqn7n14ag6tpnvc043.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

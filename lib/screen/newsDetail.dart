@@ -17,6 +17,7 @@ class _NewsDetailState extends State<NewsDetail> {
     Timestamp t = widget.post.data['dateCreated'];
     DateTime d = t.toDate();
     var newDt = DateFormat.yMMMEd().format(d);
+    String source = widget.post.data['source'];
     print(newDt.toString());
     return Scaffold(
       body: SafeArea(
@@ -72,17 +73,32 @@ class _NewsDetailState extends State<NewsDetail> {
                   SizedBox(
                     height: 10,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 15.0),
-                    child: Text(
-                      'Date Posted: $newDt',
-                      style: TextStyle(
-                          height: 2,
-                          fontSize: 12,
-                          color: Colors.black,
-                          fontFamily: 'QuickSand',
-                          fontWeight: FontWeight.w800),
-                    ),
+                  Row(
+                    children: <Widget>[
+                      Padding(
+                        padding: const EdgeInsets.only(left: 15.0),
+                        child: Text(
+                          'Date Posted: $newDt',
+                          style: TextStyle(
+                              height: 2,
+                              fontSize: 12,
+                              color: Colors.black,
+                              fontFamily: 'QuickSand',
+                              fontWeight: FontWeight.w800),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 15.0),
+                        child: Text(
+                          'Source: $source',
+                          style: TextStyle(
+                              fontSize: 12,
+                              color: Colors.black,
+                              fontFamily: 'QuickSand',
+                              fontWeight: FontWeight.w800),
+                        ),
+                      ),
+                    ],
                   ),
                   Card(
                     margin: EdgeInsets.only(left: 10, right: 10, top: 5),

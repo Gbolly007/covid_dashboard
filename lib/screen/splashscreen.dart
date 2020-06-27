@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import 'bottombar.dart';
+import '../bottombar.dart';
 
 class SplashScreenPage extends StatefulWidget {
   @override

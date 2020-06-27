@@ -2,8 +2,8 @@ import 'dart:math' as math;
 import 'package:charts_flutter/flutter.dart' as charts;
 import 'package:flutter/material.dart';
 
-import 'countrycases.dart';
-import 'covid.dart';
+import '../countrycases.dart';
+import '../covid.dart';
 
 class CountryDetails extends StatefulWidget {
   final Countries country;

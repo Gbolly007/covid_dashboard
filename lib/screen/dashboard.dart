@@ -7,8 +7,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:nice_button/NiceButton.dart';
-import 'indicator.dart';
-import 'covid.dart';
+import '../indicator.dart';
+import '../covid.dart';
 import 'package:http/http.dart' as http;
 
 class Dashboard extends StatefulWidget {
