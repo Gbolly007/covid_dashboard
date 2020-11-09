@@ -1,16 +1,10 @@
-# coviddashboard
+This application was borne out of the need to keep people informed about the deadly Covid-19 virus. It consists of a dashboard to see the current statistics of cases as a whole, the casualties and how well people are recovering. It gives users a glance of the top 5 countries being ravaged by the disease and also users can see the different stand of countries in terms of various statistics and the growth trend of cases within the last 30 days. There is also a section of the application that provides users with news of Covid-19.
 
-A new Flutter application.
+Run flutter pub get
 
-## Getting Started
+<img src="https://i.imgur.com/1ZFnOlf.png" height="500" width="500"/> <img src="https://i.imgur.com/2bYzwRP.png" height="500" width="500"/> <br>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+<img src="https://i.imgur.com/946gvq2.png" height="500" width="500"/> <img src="https://i.imgur.com/NfuLCPl.png" height="500" width="500"/> <br>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://i.imgur.com/Rls9djJ.png" height="500" width="500"/> <img src="https://i.imgur.com/2Co07mP.png" height="500" width="500"/> <br>
